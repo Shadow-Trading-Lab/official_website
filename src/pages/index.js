@@ -8,10 +8,8 @@ export default function Page() {
         <div>
             <div className='landing'>
                 <Image src={Background} alt="background" className='bg-pic' />
-                <a href='https://channel.sportslottery.com.tw/zh-tw/register/step1?retailerId=93199190' className='launch-link'>
-                    f
-                    {/* <Image src={LaunchBtn} alt="launch button" className='launch-btn' />
-                    <Image src={HoverBtn} alt="hover button" className='hover-btn' /> */}
+                <a href='https://shadow-trading-client.vercel.app/my-trade' className='launch-link'>
+                    <Image src={LaunchBtn} alt="launch button" loading='lazy'/>
                 </a>
             </div>
         </div>
