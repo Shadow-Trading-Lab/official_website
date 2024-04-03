@@ -7,7 +7,7 @@ export default function Page() {
     return (
         <div>
             <div className='landing'>
-                <Image src={Background} alt="background" className='bg-pic' />
+                <Image src={Background} alt="background" className='bg-pic' loading='lazy' />
                 <a href='https://shadow-trading-client.vercel.app/my-trade' className='launch-link'>
                     <Image src={LaunchBtn} alt="launch button" loading='lazy'/>
                 </a>
